@@ -166,6 +166,42 @@ a:focus {
   color: #4dc9ff;
 }
 
+/* Component of author */
+.c-author {
+  display: flex; /*flex positioneert de dingen in c-author op een bepaalde manier*/
+  gap: 16px; /*Zorgt voor een gab tussen de items binnen c-author van 16px*/
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.c-author__avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%; /*Maakt van de vierkante afbeelding een cirkel*/
+}
+
+/*Dit kan ook maar gaan wij NIET doen !!!*/
+/* .c-author img {
+    width: 56px;
+    height: 56px;
+} */
+
+.c-author__job,
+.c-author__name {
+  margin-bottom: 0;
+}
+
+.c-author__name {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c-author__job {
+  font-family: 'Inter Web', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
