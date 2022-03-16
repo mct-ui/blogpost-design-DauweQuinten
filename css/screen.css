@@ -85,6 +85,11 @@ h2 {
   margin: 0 0 24px;
 }
 
+/*** Als de h2 volgt op eender welk element ***/
+* + h2 {
+  margin-top: 48px;
+}
+
 h3 {
   font-size: 18px;
   line-height: 24px;
